@@ -255,6 +255,15 @@
 
 
 /*** Team ***/
+.team-item .team-overlay1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    transform: scale(0);
+    transition: .5s;
+}
+
 .team-item .team-overlay {
     display: flex;
     align-items: center;
