@@ -13,7 +13,7 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
+    right: 15px;
     bottom: 65px;
     z-index: 99;
 }
