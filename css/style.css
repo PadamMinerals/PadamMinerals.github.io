@@ -300,6 +300,20 @@
     }
 }
 
+.team-item:hover .team-overlay1 {
+    transform: scale(1);
+}
+
+.team-item .team-overlay1 .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+}
+
+.team-item .team-overlay1 .btn:hover {
+    color: #FFFFFF;
+    background: var(--secondary)
+}
+
 .team-item:hover .team-overlay {
     transform: scale(1);
 }
